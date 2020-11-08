@@ -1,9 +1,6 @@
 # Learn basic react app file structure and design
 By the end, you should have a basic file structure and design.
 
-# Getting Started with Create React App
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
 
