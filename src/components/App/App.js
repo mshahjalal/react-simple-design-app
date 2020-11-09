@@ -1,5 +1,7 @@
 //import logo from './logo.svg';
 import './App.css';
+import Header from '../Header/Header.js';
+import Footer from '../Footer/Footer.js';
 
 function App() {
   return (
@@ -18,10 +20,12 @@ function App() {
           Learn React
         </a>
       </header> */}
+      <Header />
       <button className="btn btn-primary">Primary</button>
       <button className="btn btn-secondary">Secondary</button>
       <button className="btn btn-danger">Danger</button>
       <button className="btn btn-success">Success</button>
+      <Footer />
     </div>
   );
 }
