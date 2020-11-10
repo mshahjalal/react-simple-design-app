@@ -21,10 +21,7 @@ function App() {
         </a>
       </header> */}
       <Header />
-      <button className="btn btn-primary">Primary</button>
-      <button className="btn btn-secondary">Secondary</button>
-      <button className="btn btn-danger">Danger</button>
-      <button className="btn btn-success">Success</button>
+      <div className='container-fluid'>App body here</div>
       <Footer />
     </div>
   );

@@ -1,11 +1,12 @@
 import React from 'react';
-import logo from './logo.svg';
+import logo from '../../images/logo.svg';
+import './logo.css';
 
 const Logo = () => {
     return (
-        <div className='app-logo-container'>
-        <img src={logo} className='app-logo' alt="logo" /> Your logo
-        </div>
+        <a href='/' className='navbar-brand' aria-label='Logo'>
+            <img src={logo} className='app-logo' alt='logo' />
+        </a>
     );
 };
 
